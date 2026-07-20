@@ -1,251 +1,176 @@
-@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    background-color: #f4f6f8;
-    padding: 20px;
-
-
+    background-color: black;
 }
 
-.nav-container {
+.main {
+    background-image: url(assets/images/img\ 1.jpg);
+    background-repeat: no-repeat;
+    height: 935px;
+    position: relative;
+}
+
+.main .box {
+    height: 935px;
+    width: 100%;
+    opacity: 0.59;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    width: 61vw;
+    justify-content: space-between;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-radius: 75px;
-    background-color: white;
-    padding: 1px 13px;
-    max-width: 1420px;
-    margin: 11px auto;
-    margin-left: 12px;
+    height: 82px;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
 }
 
-.logo img {
-    width: 155px;
-}
-
-.nav-items ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.nav-items ul a {
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-    font-weight: 800;
-    font-family: 'Satoshi', sans-serif;
-}
-
-.nav-items ul li a:hover {
-    color: rgb(80, 80, 80);
-}
-
-.nav-btns {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.nav-container i {
-    font-size: 1.5vw;
-    display: none;
-}
-
-.nav-btns .login-btn {
-    padding: 9px 12px;
-    background-color: transparent;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
-    cursor: pointer;
-    border-radius: 18px;
-}
-
-.nav-btns .Get-Started-btn {
-    padding: 9px 12px;
-    background-color: rgb(1 126 248);
+nav button {
+    position: relative;
+    z-index: 10;
+    background-color: red;
     color: white;
-    font-size: 15px;
-    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    width: 67px;
+    height: 19px;
     cursor: pointer;
-    border-radius: 18px;
+
 }
 
-button {
-    border-color: #e5e7eb;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.hero-section {
+.hero {
+    height: calc(100% - 100px);
     display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.heading-one h2 {
-    font-family: 'Satoshi', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    color: rgb(1, 126, 248);
-
-    letter-spacing: 1.5px;
-}
-
-.heading-two h1 {
-    font-family: 'Satoshi', sans-serif;
-    font-weight: 800;
-    font-size: 72px;
-    color: black;
-
-    line-height: 80px;
-}
-
-.heading-para p {
-    font-family: 'Satoshi', sans-serif;
-    font-weight: 900;
-    font-size: 18px;
-    color: black;
-
-    line-height: 28px;
-}
-
-.heading-btns {
-    padding: 9px;
-    gap: 20px;
-}
-
-.heading-btns .Get-Started-btn {
-    padding: 9px 12px;
-    background-color: rgb(1 126 248);
+    position: relative;
     color: white;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    border-radius: 18px;
-}
-
-.heading-btns .watch-video-btn {
-    padding: 9px 12px;
-    background-color: transparent;
-    font-size: 16px;
-    color: black;
-    font-weight: 700;
-    cursor: pointer;
-    border-radius: 18px;
-}
-
-.logo-card {
-    display: flex;
-}
-
-.reviews-cards {
-    border-radius: 24px;
-    background-color: white;
-    padding: 16px;
-    margin: 7px;
-    width: 304px;
-
-}
-
-.reviews-cards p {
-    padding: 9px 3px;
-    font-family: 'Satoshi', sans-serif;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 28px;
-}
-
-
-.reviews-stars {
-    color: #e5e7eb;
-}
-
-
-.card-inner {
-    display: inline;
-}
-
-.card-inner strong {
-    color: gray;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.card-inner img {
-    width: 145px;
-}
-
-.hero-right {
-    background-color: white;
-    border-radius: 24px;
-    margin: auto 170px;
+    text-align: center;
+    justify-content: center;
     flex-direction: column;
+    gap: 23px;
+
 }
 
-.hero-image img {
-    padding-top: 87px;
-    object-fit: cover;
+.hero> :nth-child(1) {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
 }
 
-@media (max-width: 650px) {
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
 
+.hero> :nth-child(3) {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+}
 
-    .nav-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100px;
+.hero> :nth-child(4) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.hero-buttons {
+    line-height: 23px;
+}
+
+.hero-buttons input {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 33%;
+    padding: 13px;
+}
+.email-field{
+font-size: 16px;
+font-weight: 400;
+}
+.email-field::placeholder {
+    color: rgb(219, 217, 217);
+    opacity: 1;
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(187, 41, 41);
+    position: relative;
+    z-index: 20;
+    margin-top: 18px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.btn-red-sm {
+    padding: 0px 10px;
+    background-color: red;
+    height: 25px;
+    border-color: transparent;
+}
+
+@media (max-width:850px) {
+    .main {
+        height: 744px;
     }
 
-    .nav-items {
-        display: none;
+    .main .box {
+        height: 744px;
     }
 
-
-    .nav-btns {
-        display: none;
+    .hero :nth-child(4) {
+        line-height: 23px;
     }
 
-    .heading-btns {
-        display: flex;
-        flex-direction: column;
+    .hero-buttons input {
+        width: 90%;
+        padding: 13px;
     }
 
-    .logo-card {
-        flex-direction: column;
+    nav {
+        width: 85vw;
     }
-
-    .nav-container i {
-        display: block;
-        font-size: 6vw;
-    }
-
-    .hero-section {
-        flex-direction: column;
-        height: calc(100% - 100px);
-    }
-
-    .hero-image {
-        width: 80%;
-        height: 40%;
-    }
+    .email-field::placeholder {
+    color: rgb(219, 217, 217);
+    opacity: 1;
+}
 }
