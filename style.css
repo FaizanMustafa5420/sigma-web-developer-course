@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/img\ 1.jpg);
+    background-repeat: no-repeat;
+    height: 935px;
+    position: relative;
+}
+
+.main .box {
+    height: 935px;
+    width: 100%;
+    opacity: 0.59;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    width: 61vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 82px;
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 67px;
+    height: 19px;
+    cursor: pointer;
+
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    position: relative;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.hero-buttons {
+    line-height: 23px;
+}
+
+.hero-buttons input {
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 33%;
+    padding: 13px;
+}
+
+.email-field {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email-field::placeholder {
+    color: rgb(219, 217, 217);
+    opacity: 1;
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(187, 41, 41);
+    position: relative;
+    z-index: 20;
+    margin-top: 18px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.btn-red-sm {
+    padding: 0px 10px;
+    background-color: red;
+    height: 25px;
+    border-color: transparent;
+}
+
+.movie-text {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 54px 211px;
+}
+
+.movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 240px;
+
+
+}
+
+
+
+.img2 {
+    background-image: url(assets/images/img\ 2.webp);
+    height: 344px;
+    width: 344px;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background-image: url(assets/images/img\ 3.webp);
+    height: 344px;
+    width: 344px;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background-image: url(assets/images/img\ 4.webp);
+    height: 344px;
+    width: 344px;
+
+    background-repeat: no-repeat;
+}
+
+.img5 {
+    background-image: url(assets/images/img\ 5.webp);
+    height: 344px;
+    width: 344px;
+
+    background-repeat: no-repeat;
+}
+
+.img6 {
+    background-image: url(assets/images/img\ 6.webp);
+    height: 344px;
+    width: 344px;
+    background-repeat: no-repeat;
+}
+
+.join-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 62px;
+    gap: 13px;
+    margin-right: 185px;
+}
+
+.join-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 28px;
+}
+
+.box1 {
+    color: white;
+    height: 288px;
+    width: 305px;
+    background: linear-gradient(135deg, #131835 0%, #0f0b18 100%);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 26px 12px
+}
+
+.box1 .right {
+    margin-top: 50px;
+}
+
+.box1 .right i {
+    font-size: 80px;
+    margin: 210px;
+    color: darkgray;
+}
+
+.box2 {
+    color: white;
+    height: 288px;
+    width: 305px;
+    background: linear-gradient(135deg, #131835 0%, #0f0b18 100%);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 26px 12px
+}
+
+.box2 .right {
+    margin-top: 50px;
+}
+
+.box2 .right i {
+    border: 2px solid darkgray;
+    border-radius: 50%;
+    font-size: 60px;
+    margin: 210px;
+    color: darkgray;
+}
+
+.box3 {
+    color: white;
+    height: 288px;
+    width: 305px;
+    background: linear-gradient(135deg, #131835 0%, #0f0b18 100%);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 26px 12px
+}
+
+.box3 .right {
+    margin-top: 100px;
+}
+
+.box3 .right i {
+    font-size: 60px;
+    margin: 210px;
+    color: darkgray;
+}
+
+.box4 {
+    color: white;
+    height: 288px;
+    width: 305px;
+    background: linear-gradient(135deg, #131835 0%, #0f0b18 100%);
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 26px 12px
+}
+.box4 .right {
+    margin-top: 50px;
+}
+
+.box4 .right i {
+    font-size: 60px;
+    margin: 210px;
+    color: darkgray;
+}
+@media (max-width:860px) {
+    .main {
+        height: 744px;
+
+    }
+
+    .main .box {
+        height: 744px;
+
+    }
+
+    .hero :nth-child(4) {
+        line-height: 23px;
+    }
+
+    .hero-buttons input {
+        width: 90%;
+        padding: 13px;
+    }
+
+    nav {
+        width: 85vw;
+    }
+
+    .email-field::placeholder {
+        color: rgb(219, 217, 217);
+        opacity: 1;
+    }
+
+    .movie-text {
+        display: inline;
+        font-size: 18px;
+        margin-left: 13px;
+    }
+
+    .movie-container {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .join-container {
+        width: 90%;
+        flex-direction: column;
+        margin-left: 13px;
+        gap: 12px;
+    }
+
+    .box1 .right {
+        margin-top: 50px;
+    }
+
+    .box1 .right i {
+        font-size: 80px;
+        margin: 210px;
+        color: darkgray;
+    }
+}
